@@ -2,7 +2,9 @@ in the terminal set:
 
 
 set HTTP_PROXY=http://{merck_username}:{merck_pass}@webproxy.merck.com:8080
+set HTTPS_PROXY=http://{merck_username}:{merck_pass}@webproxy.merck.com:8081
 curl "http://api.speedcurve.com/v1/sites" -u {API_SECRET}:x
+
 
 **note - will only work for HTTP reqs, NOT HTTPS**
 
