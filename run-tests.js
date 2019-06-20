@@ -4,10 +4,10 @@ const rp = require('request-promise')
 const { TaskTimer } = require('tasktimer')
 
 
-globalTunnel.initialize({ // need the proxy to query the speedcurve API
+globalTunnel.initialize({ // need the proxy to query the speedcurve API (run tests & get data in the future)
     host: 'webproxy.merck.com',
     port: 8080,
-    proxyAuth: `${process.env.USER}:${process.env.PASS}` // replace with local .env later on
+    proxyAuth: `${process.env.USER}:${process.env.PASS}`
 })
 
 const tagName = 'AK Test V1' // insert curent tag configuration name here
@@ -58,7 +58,7 @@ timer.add([
         tickInterval: 12,    // run every 12 min - can change as needed
         totalRuns: 30,   // IMPORTANT: can change this in case you hit any errors to pickup where you left off
         callback(task) {
-            // nextstep: if task.totalRuns === 31 then query API based on all testIDs & upload data into local db
+            // nextstep: if task.totalRuns === 31 then query API by looping through testIds array & upload data into local db
             // .then download that as CSV
             runDeploy()
             console.log(`\n--->>> ${task.id} task has run ${task.currentRuns} times.\n`)
