@@ -1,3 +1,6 @@
 node_modules/
 
 .env
+
+sites-res.json
+test-res.json
