@@ -1,0 +1,189 @@
+{
+    "sites": [
+        {
+            "site_id": 233663,
+            "name": "Engage Zone",
+            "urls": [
+                {
+                    "url_id": 292995,
+                    "label": "Home",
+                    "url": "http:\/\/engagezone.msd.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 204910,
+            "name": "GE",
+            "urls": [
+                {
+                    "url_id": 261628,
+                    "label": "Home",
+                    "url": "https:\/\/www.ge.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 234236,
+            "name": "Merck Vaccines",
+            "urls": [
+                {
+                    "url_id": 293802,
+                    "label": "Home",
+                    "url": "https:\/\/www.merckvaccines.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 223388,
+            "name": "Steglatro de Brian (develop)",
+            "urls": [
+                {
+                    "url_id": 282026,
+                    "label": "Home",
+                    "url": "https:\/\/merck-develop.go-vip.co\/steglatro\/"
+                }
+            ]
+        },
+        {
+            "site_id": 236965,
+            "name": "Test 3rd Party",
+            "urls": [
+                {
+                    "url_id": 297504,
+                    "label": "Home No 3rd Party",
+                    "url": "https:\/\/www.gardasil9.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 236952,
+            "name": "Tridion Gardasil",
+            "urls": [
+                {
+                    "url_id": 297486,
+                    "label": "Home",
+                    "url": "https:\/\/www.gardasil9.com\/"
+                },
+                {
+                    "url_id": 297503,
+                    "label": "Home No 3rd Party",
+                    "url": "https:\/\/www.gardasil9.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 234914,
+            "name": "Tridion Januvia",
+            "urls": [
+                {
+                    "url_id": 294622,
+                    "label": "Home",
+                    "url": "https:\/\/www.januvia.com\/"
+                },
+                {
+                    "url_id": 297507,
+                    "label": "Home No 3rd Party",
+                    "url": "https:\/\/www.januvia.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 220657,
+            "name": "Tridion Steglatro",
+            "urls": [
+                {
+                    "url_id": 278593,
+                    "label": "Home",
+                    "url": "https:\/\/steglatro-com.epublishmerck.com\/redesign\/"
+                }
+            ]
+        },
+        {
+            "site_id": 257657,
+            "name": "Tridion Steglatro Dev",
+            "urls": [
+                {
+                    "url_id": 319312,
+                    "label": "Home",
+                    "url": "https:\/\/steglatro-com.epublishmerck.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 233973,
+            "name": "Tridion Steglatro Live",
+            "urls": [
+                {
+                    "url_id": 293471,
+                    "label": "Home",
+                    "url": "https:\/\/www.steglatro.com\/"
+                },
+                {
+                    "url_id": 318429,
+                    "label": "Home No 3rd Party",
+                    "url": "https:\/\/www.steglatro.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 204970,
+            "name": "Vertic",
+            "urls": [
+                {
+                    "url_id": 261699,
+                    "label": "Home",
+                    "url": "http:\/\/www.vertic.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 221155,
+            "name": "VIP",
+            "urls": [
+                {
+                    "url_id": 279259,
+                    "label": "Home",
+                    "url": "https:\/\/vip.wordpress.com\/"
+                }
+            ]
+        },
+        {
+            "site_id": 226274,
+            "name": "VIP DEV Testing",
+            "urls": [
+                {
+                    "url_id": 285330,
+                    "label": "Home",
+                    "url": "https:\/\/merck-develop.go-vip.co\/steglatro\/"
+                }
+            ]
+        },
+        {
+            "site_id": 217103,
+            "name": "VIP Develop: Steglatro",
+            "urls": [
+                {
+                    "url_id": 274626,
+                    "label": "Home",
+                    "url": "https:\/\/merck-develop.go-vip.co\/steglatro\/"
+                },
+                {
+                    "url_id": 297505,
+                    "label": "Home No 3rd Party",
+                    "url": "https:\/\/merck-develop.go-vip.co\/steglatro\/"
+                }
+            ]
+        },
+        {
+            "site_id": 216847,
+            "name": "VIP: Steglatro",
+            "urls": [
+                {
+                    "url_id": 274328,
+                    "label": "Home",
+                    "url": "https:\/\/vip-msd.com\/steglatro"
+                }
+            ]
+        }
+    ]
+}

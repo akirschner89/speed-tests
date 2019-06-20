@@ -1,0 +1,25 @@
+in the terminal set:
+
+
+set HTTP_PROXY=http://{merck_username}:{merck_pass}@webproxy.merck.com:8080
+curl "http://api.speedcurve.com/v1/sites" -u {API_SECRET}:x
+
+**note - will only work for HTTP reqs, NOT HTTPS**
+
+for a new deploy - using all tags example, w/ right site & url IDs:
+
+curl "http://api.speedcurve.com/v1/deploys" ^
+-u {API_SECRET}:x ^
+--request POST ^
+--data site_id=223388 ^
+--data url_id=282026 ^
+--data note=all%20tags
+
+
+to get test results from the previous deploy (using the above deploy's tets ID as an example):
+
+curl "http://api.speedcurve.com/v1/tests/190606_SD_69ecb91bce5d407456e7607a1ad88d3b" -u sz6cfpgm8h80mt301r0g8riotfzl4d:x
+
+
+
+

@@ -1,0 +1,20 @@
+{
+    "deploy_id": 485850,
+    "site_id": 223388,
+    "timestamp": 1559843803,
+    "status": "success",
+    "message": "A deployment has been added and testing is underway.",
+    "info": {
+        "tests-added": [
+            {
+                "test": "190606_SD_69ecb91bce5d407456e7607a1ad88d3b",
+                "browser": "Apple iPhone 6",
+                "region": {
+                    "value": "us-west-1"
+                }
+            }
+        ],
+        "tests-requested": 1
+    },
+    "tests-requested": 1
+}
