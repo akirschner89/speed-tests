@@ -24,7 +24,7 @@ PASS={your_pass}
 API_SECRET={API_SECRET}
 ```
 
-## set the tagName variable to whatever configuration of tags you need to test e.g.
+## set the `tagName` variable to whatever configuration of tags you need to test e.g.
 
 ```
 const tagName = 'TEST V1'
@@ -37,6 +37,6 @@ const tagName = 'TEST V1'
 node run-tests.js
 ```
 
-### note - the first test won`t run until after the specified interval from the tickInterval variable e.g. out of the box it`s every 12 minutes
+### note - the first test won't run until after the specified interval from the `tickInterval` variable e.g. out of the box it's every 12 minutes
 
 
