@@ -1,0 +1,28 @@
+{
+  "name": "speed-tests",
+  "version": "1.0.0",
+  "description": "use for performance testing for landing pages",
+  "main": "run-tests.js",
+  "dependencies": {
+    "global-tunnel-ng": "^2.7.1",
+    "dotenv": "^8.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "tasktimer": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akirschner89/speed-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akirschner89/speed-tests/issues"
+  },
+  "homepage": "https://github.com/akirschner89/speed-tests#readme"
+}
