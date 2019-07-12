@@ -4,3 +4,5 @@ node_modules/
 
 sites-res.json
 test-res.json
+curl-test
+deploy-res.json
